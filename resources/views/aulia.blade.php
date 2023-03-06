@@ -3,7 +3,7 @@
 @section('content')
 <center>
     <div class="card" style="width: 18rem;">
-        <img src="{{ asset('img/yofandra.jpg')}}" class="card-img-top" alt="...">
+        <img src="{{ asset('img/aulia.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="nama">
                 <center>Aulia Cahya Briliana</center>
