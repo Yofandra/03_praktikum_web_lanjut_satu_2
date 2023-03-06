@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-body">
                     <h1>
-                        <center>Yofandra.Mart</center>
+                        <center>Selamat Datang</center>
                     </h1>
                 </div>
             </div>
