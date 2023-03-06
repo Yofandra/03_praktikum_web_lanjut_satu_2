@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class KuliahController extends Controller
 {
-    public function index(){
+    public function kuliah(){
         return view('kuliah');
     }
 }

@@ -1,5 +1,9 @@
 @extends('adminlte::page')
 
+@section('content_header')
+<h1><center>Profile</center></h1>
+@stop
+
 @section('content')
 <center>
     <div class="card" style="width: 18rem;">
@@ -19,3 +23,7 @@
 
 </center>
 @endsection
+
+@section('footer')
+<center>&copy; Kelompok 5</center>
+@stop

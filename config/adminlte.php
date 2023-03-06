@@ -300,6 +300,10 @@ return [
             'type'         => 'fullscreen-widget',
             'topnav_right' => true,
         ],
+        [
+            'text'         => 'home',
+            'topnav_right'  => true,
+        ],
 
         // Sidebar items:
         [
@@ -321,7 +325,7 @@ return [
 
         [
             'text'    => 'Profile',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'fas fa-fw fa-user',
             'submenu' => [
                 [
                     'text' => 'Aulia Cahya Briliana',
@@ -335,8 +339,8 @@ return [
         ],
         [
             'text' => 'Pengalaman Kuliah',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'url'  => 'kuliah',
+            'icon' => 'fas fa-fw fa-book',
         ],
     ],
 
