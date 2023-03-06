@@ -291,18 +291,29 @@ return [
 
     'menu' => [
         // Navbar items:
+        // [
+        //     'type'         => 'navbar-search',
+        //     'text'         => 'search',
+        //     'topnav_right' => true,
+        // ],
+        // [
+        //     'type'         => 'fullscreen-widget',
+        //     'topnav_right' => true,
+        // ],
         [
-            'type'         => 'navbar-search',
-            'text'         => 'search',
+            'url'          => '#',
+            'text'         => 'Home',
             'topnav_right' => true,
         ],
         [
-            'type'         => 'fullscreen-widget',
+            'url'          => '#',
+            'text'         => 'Contact',
             'topnav_right' => true,
         ],
         [
-            'text'         => 'home',
-            'topnav_right'  => true,
+            'url'          => '#',
+            'text'         => 'About Us',
+            'topnav_right' => true,
         ],
 
         // Sidebar items:
@@ -446,6 +457,21 @@ return [
                     'type' => 'js',
                     'asset' => false,
                     'location' => '//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js',
+                ],
+            ],
+        ],
+        'Toastr' => [
+            'active' => false,
+            'files' => [
+                [
+                    'type' => 'css',
+                    'asset' => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css',
+                ],
+                [
+                    'type' => 'js',
+                    'asset' => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js',
                 ],
             ],
         ],

@@ -3,11 +3,14 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1><center>Selamat Datang</center></h1>
+<h1>
+    <center>Selamat Datang</center>
+</h1>
 @stop
 
 
 @section('content')
+
 @section('plugins.Toastr')
 
 @section('footer')
@@ -24,6 +27,6 @@
     console.log('Hi!');
 </script>
 <script>
-    toastr["success"]("Selamat Datang")
+    toastr["info"]("Selamat Datang")
 </script>
 @stop
