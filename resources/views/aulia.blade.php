@@ -1,24 +1,21 @@
 @extends('adminlte::page')
 
 @section('content')
-<section class="content">
-    <div class="card">
-        <div class="card-header border-0">
-            <div class="d-flex justify-content-between">
-                <h3 class="card-title">Profil Aulia</h3>
-            </div>
-            <div class="card-body">
-                Nama Lengkap : {!! $name !!} <br>
-                Nama Panggilan : {!! $nama !!} <br>
-                NIM : {!! $nim !!} <br>
-                Kelas : {!! $kelas !!} <br>
-                No. Absen : {!! $absen !!} <br>
-                Program Studi : {!! $prodi !!} <br>
-                Jurusan : {!! $jurusan !!} <br>
-                Universitas : {!! $univ !!} <br>
-            </div>
+<center>
+    <div class="card" style="width: 18rem;">
+        <img src="{{ asset('img/yofandra.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="nama">
+                <center>Aulia Cahya Briliana</center>
+            </h5>
+            <p class="card-text"></p>
         </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mahasiswa Polinema</li>
+            <li class="list-group-item">AG People Juga</li>
+            <li class="list-group-item">Suka Haechan ehe</li>
+        </ul>
     </div>
-</section>
 
+</center>
 @endsection
