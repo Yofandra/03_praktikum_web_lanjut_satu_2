@@ -312,11 +312,11 @@ return [
             'can'  => 'manage-blog',
         ],
 
-        ['header' => 'Halaman'],
+        ['header' => 'Menu'],
         [
             'text' => 'Dashboard',
             'url'  => 'homee',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => ' fas fa-tachometer-alt',
         ],
 
         [
