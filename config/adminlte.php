@@ -325,11 +325,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'Aulia Cahya Briliana',
-                    'url'  => '#',
+                    'url'  => 'profile/aulia',
                 ],
                 [
                     'text' => 'Yofandra Arta Priyoga',
-                    'url'  => '#',
+                    'url'  => 'profile/yofandra',
                 ],
             ],
         ],
