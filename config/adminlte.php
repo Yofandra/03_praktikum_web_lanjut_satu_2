@@ -296,10 +296,7 @@ return [
         //     'text'         => 'search',
         //     'topnav_right' => true,
         // ],
-        // [
-        //     'type'         => 'fullscreen-widget',
-        //     'topnav_right' => true,
-        // ],
+        
         [
             'url'          => '#',
             'text'         => 'Home',
@@ -313,6 +310,10 @@ return [
         [
             'url'          => '#',
             'text'         => 'About Us',
+            'topnav_right' => true,
+        ],
+        [
+            'type'         => 'fullscreen-widget',
             'topnav_right' => true,
         ],
 
