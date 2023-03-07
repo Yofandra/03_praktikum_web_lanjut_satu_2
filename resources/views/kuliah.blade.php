@@ -12,7 +12,7 @@
                 <h3 class="card-title">Pengalaman Kuliah Aulia</h3>
             </div>
             <div class="card-body">
-                pengalaman saya kuliah ya gini2 aja. happy bgt
+                Pengalaman saya kuliah ya gini-gini aja. Happy yeyyy....
             </div>
         </div>
     </div>
@@ -33,5 +33,5 @@
 @endsection
 
 @section('footer')
-<center>&copy; Kelompok 5</center>
+<center>&copy; Kelompok 9</center>
 @stop

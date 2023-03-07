@@ -25,5 +25,5 @@
 @endsection
 
 @section('footer')
-<center>&copy; Kelompok 5</center>
+<center>&copy; Kelompok 9</center>
 @stop
